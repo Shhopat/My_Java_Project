@@ -33,11 +33,27 @@ public class My_Map<K, V> implements Iterable {
                 return index;
             }
         }
-        return 0;
+        return -1;
     }
 
     public V getValue(K key) {
         return (V) values[indexOfKey(key)];
+    }
+
+    public K getKey(V value) {
+        for (int i = 0; i < size; i++) {
+            if (values[i] == value) {
+                return (K) keys[i];
+            }
+        }
+        return null;
+
+    }
+
+    public boolean contains(K key, V value) {
+        if (getKey(value) == key && getValue(key) == value) {
+            return true;
+        } else return false;
     }
 
 
