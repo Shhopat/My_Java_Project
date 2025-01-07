@@ -24,6 +24,7 @@ public class My_Map<K, V> implements Iterable {
 
     }
 
+
     public int indexOfKey(K key) {
         int index;
         for (int i = 0; i <= size; i++) {
@@ -38,6 +39,7 @@ public class My_Map<K, V> implements Iterable {
     public V getValue(K key) {
         return (V) values[indexOfKey(key)];
     }
+
 
     public int size() {
         return size;
