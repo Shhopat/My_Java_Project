@@ -24,6 +24,21 @@ public class My_Map<K, V> implements Iterable {
 
     }
 
+    public int indexOfKey(K key) {
+        int index;
+        for (int i = 0; i <= size; i++) {
+            if (keys[i] == key) {
+                index = i;
+                return index;
+            }
+        }
+        return 0;
+    }
+
+    public V getValue(K key) {
+        return (V) values[indexOfKey(key)];
+    }
+
     public int size() {
         return size;
     }
