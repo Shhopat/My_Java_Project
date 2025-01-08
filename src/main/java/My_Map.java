@@ -1,17 +1,25 @@
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.helpers.SubstituteLoggerFactory;
+
+
 import java.util.Iterator;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
 public class My_Map<K, V> implements Iterable {
+    private final Logger logger = LoggerFactory.getLogger(My_Map.class);
     private Object[] keys;
     private Object[] values;
     private int size;
     private int length = 10;
 
+
     public My_Map() {
         keys = new Object[length];
         values = new Object[length];
         size = 0;
+        logger.debug("field initialization");
     }
 
     public void add(K key, V value) {
@@ -20,6 +28,7 @@ public class My_Map<K, V> implements Iterable {
         ++size;
         if (size == length) {
             increase_Arrays();
+            logger.debug("increased the array");
         }
 
     }
@@ -27,7 +36,7 @@ public class My_Map<K, V> implements Iterable {
 
     public int indexOfKey(K key) {
         int index;
-        for (int i = 0; i <= size; i++) {
+        for (int i = 0; i < size; i++) {
             if (keys[i] == key) {
                 index = i;
                 return index;
@@ -37,7 +46,9 @@ public class My_Map<K, V> implements Iterable {
     }
 
     public V getValue(K key) {
+        logger.warn("it will be able mistake here in getValue");
         return (V) values[indexOfKey(key)];
+
     }
 
     public K getKey(V value) {
