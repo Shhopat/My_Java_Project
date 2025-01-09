@@ -1,1 +1,88 @@
 2025-01-08 04:23:31 [main] DEBUG My_Map - field initialization
+2025-01-08 04:45:53 [main] DEBUG My_Map - field initialization
+2025-01-08 04:45:53 [main] DEBUG My_Map - increased the array
+2025-01-08 04:46:08 [main] DEBUG My_Map - field initialization
+2025-01-08 04:46:08 [main] DEBUG My_Map - increased the array
+2025-01-08 04:46:20 [main] DEBUG My_Map - field initialization
+2025-01-08 04:46:20 [main] DEBUG My_Map - increased the array
+2025-01-08 04:50:50 [main] DEBUG My_Map - field initialization
+2025-01-08 04:50:50 [main] DEBUG My_Map - increased the array
+2025-01-08 04:50:50 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-08 04:50:50 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-08 04:52:42 [main] DEBUG My_Map - field initialization
+2025-01-08 04:52:42 [main] DEBUG My_Map - increased the array
+2025-01-08 04:53:01 [main] DEBUG My_Map - field initialization
+2025-01-08 05:09:53 [main] DEBUG My_Map - field initialization
+2025-01-08 05:10:30 [main] DEBUG My_Map - field initialization
+2025-01-08 05:10:50 [main] DEBUG My_Map - field initialization
+2025-01-08 05:11:20 [main] DEBUG My_Map - field initialization
+2025-01-08 05:11:40 [main] DEBUG My_Map - field initialization
+2025-01-08 05:11:46 [main] DEBUG My_Map - field initialization
+2025-01-08 05:12:45 [main] DEBUG My_Map - field initialization
+2025-01-08 05:14:18 [main] DEBUG My_Map - field initialization
+2025-01-08 05:14:18 [main] DEBUG My_Map - field initialization
+2025-01-08 05:16:08 [main] DEBUG My_Map - field initialization
+2025-01-08 05:16:08 [main] DEBUG My_Map - field initialization
+2025-01-08 05:16:40 [main] DEBUG My_Map - field initialization
+2025-01-08 05:16:40 [main] DEBUG My_Map - field initialization
+2025-01-08 05:16:40 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:16:40 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:16:40 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-08 05:16:40 [main] DEBUG My_Map - lend the date of method addAll
+2025-01-08 05:16:40 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:16:40 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:16:40 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-08 05:16:40 [main] DEBUG My_Map - lend the date of method addAll
+2025-01-08 05:17:46 [main] DEBUG My_Map - field initialization
+2025-01-08 05:17:46 [main] DEBUG My_Map - field initialization
+2025-01-08 05:18:03 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:18:14 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:18:14 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-08 05:18:25 [main] DEBUG My_Map - lend the date of method addAll
+2025-01-08 05:18:39 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:18:51 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:18:51 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-08 05:18:52 [main] DEBUG My_Map - lend the date of method addAll
+2025-01-08 05:19:44 [main] DEBUG My_Map - field initialization
+2025-01-08 05:19:44 [main] DEBUG My_Map - field initialization
+2025-01-08 05:19:44 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:19:44 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:19:44 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-08 05:19:44 [main] DEBUG My_Map - lend the date of method addAll
+2025-01-08 05:19:44 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:19:44 [main] DEBUG My_Map - get the Key with help to index
+2025-01-08 05:19:44 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-08 05:19:44 [main] DEBUG My_Map - lend the date of method addAll
+2025-01-09 03:23:28 [main] DEBUG My_Map - field initialization
+2025-01-09 03:24:04 [main] DEBUG My_Map - field initialization
+2025-01-09 03:24:04 [main] DEBUG My_Map - field initialization
+2025-01-09 03:24:11 [main] DEBUG My_Map - field initialization
+2025-01-09 03:24:11 [main] DEBUG My_Map - field initialization
+2025-01-09 03:24:11 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:24:11 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:24:11 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-09 03:24:11 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:24:11 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:24:11 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-09 03:24:22 [main] DEBUG My_Map - field initialization
+2025-01-09 03:24:22 [main] DEBUG My_Map - field initialization
+2025-01-09 03:24:22 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:24:22 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:24:22 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-09 03:24:22 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:24:22 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:24:22 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-09 03:25:03 [main] DEBUG My_Map - field initialization
+2025-01-09 03:25:03 [main] DEBUG My_Map - field initialization
+2025-01-09 03:25:03 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:25:03 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:25:03 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-09 03:25:03 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:25:03 [main] DEBUG My_Map - get the Key with help to index
+2025-01-09 03:25:03 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-09 03:35:10 [main] DEBUG My_Map - field initialization
+2025-01-09 03:35:10 [main] DEBUG My_Map - increased the array
+2025-01-09 03:35:34 [main] DEBUG My_Map - field initialization
+2025-01-09 03:35:34 [main] DEBUG My_Map - increased the array
+2025-01-09 03:35:58 [main] DEBUG My_Map - field initialization
+2025-01-09 03:35:58 [main] DEBUG My_Map - increased the array

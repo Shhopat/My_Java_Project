@@ -23,6 +23,9 @@ public class My_Map<K, V> implements Iterable {
     }
 
     public void add(K key, V value) {
+        if (key == null || value == null){
+            throw new NullPointerException();
+        }
         keys[size] = key;
         values[size] = value;
         ++size;
@@ -51,7 +54,19 @@ public class My_Map<K, V> implements Iterable {
 
     }
 
+    public void addAll(My_Map<K, V> map) {
+        for (int i = 0; i < map.size(); i++) {
+            add(map.getKey(i), map.getValue(map.getKey(i)) );
+        }
+
+
+
+    }
+
     public K getKey(V value) {
+        if (value == null){
+            throw new NullPointerException();
+        }
         for (int i = 0; i < size; i++) {
             if (values[i] == value) {
                 return (K) keys[i];
@@ -61,7 +76,15 @@ public class My_Map<K, V> implements Iterable {
 
     }
 
+    public K getKey(int index) {
+        logger.debug("get the Key with help to index");
+        return (K) keys[index];
+    }
+
     public boolean contains(K key, V value) {
+        if (key == null || value == null){
+            throw new NullPointerException();
+        }
         if (getKey(value) == key && getValue(key) == value) {
             return true;
         } else return false;
@@ -91,6 +114,18 @@ public class My_Map<K, V> implements Iterable {
         }
     }
 
+    @Override
+    public String toString() {
+        if (keys[0] == null && values[0] == null) {
+            return "My_Map { }";
+        }
+        StringBuilder stringBuilder = new StringBuilder("My_Map {");
+        for (int i = 0; i < size; i++) {
+            stringBuilder.append(" " + keys[i] + ":" + values[i] + ",");
+        }
+        stringBuilder.replace(stringBuilder.length() - 1, stringBuilder.length(), " }");
+        return stringBuilder.toString();
+    }
 
     @Override
     public Iterator iterator() {
@@ -107,3 +142,6 @@ public class My_Map<K, V> implements Iterable {
         return Iterable.super.spliterator();
     }
 }
+
+
+
