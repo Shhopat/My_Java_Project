@@ -86,3 +86,121 @@
 2025-01-09 03:35:34 [main] DEBUG My_Map - increased the array
 2025-01-09 03:35:58 [main] DEBUG My_Map - field initialization
 2025-01-09 03:35:58 [main] DEBUG My_Map - increased the array
+2025-01-09 04:09:44 [main] DEBUG My_Map - field initialization
+2025-01-09 04:10:13 [main] DEBUG My_Map - field initialization
+2025-01-09 04:10:37 [main] DEBUG My_Map - field initialization
+2025-01-09 04:10:56 [main] DEBUG My_Map - field initialization
+2025-01-09 04:28:11 [main] DEBUG My_Map - field initialization
+2025-01-09 04:28:30 [main] DEBUG My_Map - field initialization
+2025-01-09 04:28:30 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-09 04:29:54 [main] DEBUG My_Map - field initialization
+2025-01-09 04:29:54 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-09 04:30:01 [main] DEBUG My_Map - field initialization
+2025-01-09 04:30:01 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-09 04:35:39 [main] DEBUG My_Map - field initialization
+2025-01-09 04:36:13 [main] DEBUG My_Map - field initialization
+2025-01-09 04:36:58 [main] DEBUG My_Map - field initialization
+2025-01-09 04:37:01 [main] DEBUG My_Map - field initialization
+2025-01-09 04:44:40 [main] DEBUG My_Map - field initialization
+2025-01-09 04:44:51 [main] DEBUG My_Map - field initialization
+2025-01-09 04:45:06 [main] DEBUG My_Map - field initialization
+2025-01-10 13:47:22 [main] DEBUG My_Map - field initialization
+2025-01-10 13:48:17 [main] DEBUG My_Map - field initialization
+2025-01-10 13:48:38 [main] DEBUG My_Map - field initialization
+2025-01-10 13:49:18 [main] DEBUG My_Map - field initialization
+2025-01-10 13:49:18 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-10 13:50:08 [main] DEBUG My_Map - field initialization
+2025-01-10 13:50:08 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-10 13:50:44 [main] DEBUG My_Map - field initialization
+2025-01-10 13:50:44 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-10 13:50:57 [main] DEBUG My_Map - field initialization
+2025-01-10 13:50:57 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-10 13:51:09 [main] DEBUG My_Map - field initialization
+2025-01-10 13:51:09 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-10 13:51:58 [main] DEBUG My_Map - field initialization
+2025-01-10 13:52:04 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-10 13:53:21 [main] DEBUG My_Map - field initialization
+2025-01-10 13:53:21 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-10 13:53:40 [main] DEBUG My_Map - field initialization
+2025-01-10 13:53:40 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-17 20:11:43 [main] DEBUG My_Map - field initialization
+2025-01-17 20:11:43 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-17 20:12:56 [main] DEBUG My_Map - field initialization
+2025-01-17 20:12:56 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-17 20:15:21 [main] DEBUG My_Map - field initialization
+2025-01-17 20:15:21 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-17 20:15:29 [main] DEBUG My_Map - field initialization
+2025-01-17 20:15:29 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-17 20:15:50 [main] DEBUG My_Map - field initialization
+2025-01-17 20:20:41 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-17 20:20:45 [main] DEBUG My_Map - field initialization
+2025-01-17 20:20:45 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-17 20:20:54 [main] DEBUG My_Map - field initialization
+2025-01-17 20:21:56 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 12:27:36 [main] DEBUG My_Map - field initialization
+2025-01-21 12:27:53 [main] DEBUG My_Map - field initialization
+2025-01-21 12:29:46 [main] DEBUG My_Map - field initialization
+2025-01-21 12:29:46 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 12:29:51 [main] DEBUG My_Map - field initialization
+2025-01-21 12:29:58 [main] DEBUG My_Map - field initialization
+2025-01-21 12:29:58 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 12:30:23 [main] DEBUG My_Map - field initialization
+2025-01-21 12:30:23 [main] DEBUG My_Map - increased the array
+2025-01-21 12:33:46 [main] DEBUG My_Map - field initialization
+2025-01-21 12:33:46 [main] DEBUG My_Map - field initialization
+2025-01-21 12:33:46 [main] DEBUG My_Map - get the Key with help to index
+2025-01-21 12:33:46 [main] DEBUG My_Map - get the Key with help to index
+2025-01-21 12:33:46 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 12:33:46 [main] DEBUG My_Map - get the Key with help to index
+2025-01-21 12:33:46 [main] DEBUG My_Map - get the Key with help to index
+2025-01-21 12:33:46 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 12:36:06 [main] DEBUG My_Map - field initialization
+2025-01-21 12:36:06 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 12:36:28 [main] DEBUG My_Map - field initialization
+2025-01-21 12:36:28 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 12:36:34 [main] DEBUG My_Map - field initialization
+2025-01-21 12:36:34 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 12:48:46 [main] DEBUG My_Map - field initialization
+2025-01-21 12:49:06 [main] DEBUG My_Map - field initialization
+2025-01-21 12:49:06 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 12:55:09 [main] DEBUG My_Map - field initialization
+2025-01-21 12:55:25 [main] DEBUG My_Map - field initialization
+2025-01-21 12:55:37 [main] DEBUG My_Map - field initialization
+2025-01-21 12:59:17 [main] DEBUG My_Map - field initialization
+2025-01-21 13:00:15 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:00:34 [main] DEBUG My_Map - field initialization
+2025-01-21 13:00:34 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:00:45 [main] DEBUG My_Map - field initialization
+2025-01-21 13:00:45 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:02:31 [main] DEBUG My_Map - field initialization
+2025-01-21 13:02:31 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:03:28 [main] DEBUG My_Map - field initialization
+2025-01-21 13:03:29 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:04:00 [main] DEBUG My_Map - field initialization
+2025-01-21 13:04:00 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:04:38 [main] DEBUG My_Map - field initialization
+2025-01-21 13:04:38 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:04:56 [main] DEBUG My_Map - field initialization
+2025-01-21 13:05:00 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:05:09 [main] DEBUG My_Map - field initialization
+2025-01-21 13:05:09 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:05:20 [main] DEBUG My_Map - field initialization
+2025-01-21 13:05:33 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:06:32 [main] DEBUG My_Map - field initialization
+2025-01-21 13:07:23 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:15:00 [main] DEBUG My_Map - field initialization
+2025-01-21 13:15:00 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:16:54 [main] DEBUG My_Map - field initialization
+2025-01-21 13:16:54 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:19:55 [main] DEBUG My_Map - field initialization
+2025-01-21 13:19:55 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:20:25 [main] DEBUG My_Map - field initialization
+2025-01-21 13:20:25 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:21:04 [main] DEBUG My_Map - field initialization
+2025-01-21 13:21:04 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:21:29 [main] DEBUG My_Map - field initialization
+2025-01-21 13:21:29 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:22:12 [main] DEBUG My_Map - field initialization
+2025-01-21 13:22:12 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:22:37 [main] DEBUG My_Map - field initialization
+2025-01-21 13:22:37 [main] WARN  My_Map - it will be able mistake here in getValue

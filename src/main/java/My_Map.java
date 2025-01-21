@@ -1,8 +1,8 @@
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.slf4j.helpers.SubstituteLoggerFactory;
 
 
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Spliterator;
 import java.util.function.Consumer;
@@ -23,16 +23,23 @@ public class My_Map<K, V> implements Iterable {
     }
 
     public void add(K key, V value) {
-        if (key == null || value == null){
+        if (key == null || value == null) {
             throw new NullPointerException();
         }
-        keys[size] = key;
-        values[size] = value;
-        ++size;
-        if (size == length) {
-            increase_Arrays();
-            logger.debug("increased the array");
+        logger.trace("value size: {}", size);
+        if (size >= 1 && keys[size - 1] == null) {
+            keys[size - 1] = key;
+            values[size - 1] = value;
+        } else {
+            keys[size] = key;
+            values[size] = value;
+            ++size;
+            if (size == length) {
+                increaseArrays();
+                logger.debug("increased the array");
+            }
         }
+
 
     }
 
@@ -48,6 +55,23 @@ public class My_Map<K, V> implements Iterable {
         return -1;
     }
 
+    public void remove(K key, V val) {
+        if (key == null || val == null) {
+            throw new NullPointerException();
+        } else {
+            if (contains(key, val)) {
+                int index = indexOfKey(key);
+                this.keys[index] = null;
+                this.values[index] = null;
+                for (; index < size; index++) {
+                    this.keys[index] = this.keys[index + 1];
+                    this.values[index] = this.values[index + 1];
+                }
+                size--;
+            }
+        }
+    }
+
     public V getValue(K key) {
         logger.warn("it will be able mistake here in getValue");
         return (V) values[indexOfKey(key)];
@@ -56,15 +80,14 @@ public class My_Map<K, V> implements Iterable {
 
     public void addAll(My_Map<K, V> map) {
         for (int i = 0; i < map.size(); i++) {
-            add(map.getKey(i), map.getValue(map.getKey(i)) );
+            add(map.getKey(i), map.getValue(map.getKey(i)));
         }
-
 
 
     }
 
     public K getKey(V value) {
-        if (value == null){
+        if (value == null) {
             throw new NullPointerException();
         }
         for (int i = 0; i < size; i++) {
@@ -82,7 +105,7 @@ public class My_Map<K, V> implements Iterable {
     }
 
     public boolean contains(K key, V value) {
-        if (key == null || value == null){
+        if (key == null || value == null) {
             throw new NullPointerException();
         }
         if (getKey(value) == key && getValue(key) == value) {
@@ -95,7 +118,7 @@ public class My_Map<K, V> implements Iterable {
         return size;
     }
 
-    private void increase_Arrays() {
+    private void increaseArrays() {
         if (size == length) {
             length = length * 2;
             //know a new length of new massive
@@ -121,9 +144,11 @@ public class My_Map<K, V> implements Iterable {
         }
         StringBuilder stringBuilder = new StringBuilder("My_Map {");
         for (int i = 0; i < size; i++) {
-            stringBuilder.append(" " + keys[i] + ":" + values[i] + ",");
+            if (this.keys[i] == null)
+                continue;
+            stringBuilder.append("" + keys[i] + ":" + values[i] + ",");
         }
-        stringBuilder.replace(stringBuilder.length() - 1, stringBuilder.length(), " }");
+        stringBuilder.replace(stringBuilder.length() - 1, stringBuilder.length(), "}");
         return stringBuilder.toString();
     }
 
