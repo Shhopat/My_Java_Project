@@ -4,10 +4,11 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
-public class My_Map<K, V> implements Iterable {
+public class My_Map<K, V> implements Iterable<Map.Entry<K, V>> {
     private final Logger logger = LoggerFactory.getLogger(My_Map.class);
     private Object[] keys;
     private Object[] values;
@@ -70,6 +71,11 @@ public class My_Map<K, V> implements Iterable {
                 size--;
             }
         }
+    }
+
+    public void removeAll() {
+        this.keys = new Object[10];
+        this.values = new Object[10];
     }
 
     public V getValue(K key) {
@@ -146,25 +152,51 @@ public class My_Map<K, V> implements Iterable {
         for (int i = 0; i < size; i++) {
             if (this.keys[i] == null)
                 continue;
-            stringBuilder.append("" + keys[i] + ":" + values[i] + ",");
+            stringBuilder.append(keys[i] + ":" + values[i] + ",");
         }
         stringBuilder.replace(stringBuilder.length() - 1, stringBuilder.length(), "}");
         return stringBuilder.toString();
     }
 
     @Override
-    public Iterator iterator() {
-        return null;
-    }
+    public Iterator<Map.Entry<K, V>> iterator() {
+        return new Iterator<Map.Entry<K, V>>() {
+            private int index = 0;
 
-    @Override
-    public void forEach(Consumer action) {
-        Iterable.super.forEach(action);
-    }
+            @Override
+            public boolean hasNext() {
+                return index < size;
+            }
 
-    @Override
-    public Spliterator spliterator() {
-        return Iterable.super.spliterator();
+            @Override
+            public Map.Entry<K, V> next() {
+                if (!hasNext()) {
+                    throw new IllegalArgumentException("No more elements ");
+                }
+                return new Map.Entry<K, V>() {
+                    private final K key = (K) keys[index];
+                    private final V value = (V) values[index++];
+
+
+
+                    @Override
+                    public K getKey() {
+                        return key;
+
+                    }
+
+                    @Override
+                    public V getValue() {
+                        return value;
+                    }
+
+                    @Override
+                    public V setValue(V value) {
+                        throw new UnsupportedOperationException();
+                    }
+                };
+            }
+        };
     }
 }
 

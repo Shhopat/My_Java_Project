@@ -204,3 +204,7 @@
 2025-01-21 13:22:12 [main] WARN  My_Map - it will be able mistake here in getValue
 2025-01-21 13:22:37 [main] DEBUG My_Map - field initialization
 2025-01-21 13:22:37 [main] WARN  My_Map - it will be able mistake here in getValue
+2025-01-21 13:47:37 [main] DEBUG My_Map - field initialization
+2025-01-21 13:47:50 [main] DEBUG My_Map - field initialization
+2025-01-21 13:48:31 [main] DEBUG My_Map - field initialization
+2025-01-21 14:36:47 [main] DEBUG My_Map - field initialization
